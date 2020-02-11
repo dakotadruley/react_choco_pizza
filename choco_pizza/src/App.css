@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+Header {
+display: flex;
+justify-content: space-between;
+} 
+
+#logoContainer {
+  display: flex;
+  flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#topLeft {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 0.08em;
 }
 
-.App-link {
-  color: #61dafb;
+aside {
+  float: right;
+  text-align: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#logo {
+  width: 50px;
+  height: 50px;
 }
+
+#delicious {
+  font-family: 'Lobster', cursive;
+}
+
+#bestFood {
+  font-size: 0.5em;
+}
+
+#printContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  float: right;
+}
+
+#printIcon {
+  height: 15px;
+  width: 15px;
+}
+

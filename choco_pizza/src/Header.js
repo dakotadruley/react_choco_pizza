@@ -4,10 +4,12 @@ export default class Header extends Component {
     render() {
         return (
         <header>
-            <div>
-                <img src={this.props.logo} alt='fork and knife icon'/>
-                <h3 id='delicious'>Delicious</h3>
-                <p id='bestFood'>THE BEST FOOD BLOG ON THE WEB</p>
+            <div id='logoContainer'>
+                <img id='logo' src={this.props.logo} alt='fork and knife icon'/>
+                <div id='topLeft'>
+                    <h3 id='delicious'>Delicious</h3>
+                    <p id='bestFood'>THE BEST FOOD BLOG ON THE WEB</p>
+                </div>
             </div>
             <aside>
                 <img src={this.props.fbLogo} alt='Facebook icon'/>
