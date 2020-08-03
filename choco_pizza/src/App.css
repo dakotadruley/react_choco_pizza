@@ -1,0 +1,50 @@
+Header {
+display: flex;
+justify-content: space-between;
+margin: 1em;
+} 
+
+#logoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#topLeft {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.25px;
+}
+
+aside {
+  text-align: right;
+}
+
+#logo {
+  margin: 0.5em;
+  width: 50px;
+  height: 50px;
+}
+
+#delicious {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+#bestFood {
+  font-size: 11px;
+}
+
+#printContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  float: right;
+}
+
+#printIcon {
+  height: 15px;
+  width: 15px;
+}
+
