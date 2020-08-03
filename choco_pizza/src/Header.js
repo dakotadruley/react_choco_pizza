@@ -11,14 +11,13 @@ export default class Header extends Component {
                     <p id='bestFood'>THE BEST FOOD BLOG ON THE WEB</p>
                 </div>
             </div>
-            <aside>
+            <aside id='iconContainer'>
                 <img src={this.props.fbLogo} alt='Facebook icon'/>
                 <img src={this.props.twitLogo} alt='Twitter icon'/>
                 <img src={this.props.gLogo} alt='Google Plus icon'/>
                 <img src={this.props.instaLogo} alt='Instagram icon'/>
                 <img src={this.props.flicLogo} alt='Flicker icon'/>
-                <img src={this.props.pintLogo} alt='Pintrist icon'/>
-                <br></br>
+                <img src={this.props.pintLogo} alt='Pintrist icon'/> 
                 <img src={this.props.rssLogo} alt='RSS icon'/>
                 <img src={this.props.mailLogo} alt='Mail icon'/>
             </aside>
